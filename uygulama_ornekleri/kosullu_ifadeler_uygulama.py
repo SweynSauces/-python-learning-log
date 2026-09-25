@@ -60,7 +60,10 @@ if fener_durumu and fener_pil > 0:
     
     if fener_pil <= 10:
         print("Işık titriyor... Fener pili bitmek üzere!")
-    
+
+    elif fener_pil <=0:
+        print("Pil yüzdesi 0'dan küçük olamaz. ")
+        
     else:
         print("Fener yolu aydınlatıyor.")
         
